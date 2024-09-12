@@ -1,0 +1,7 @@
+package com.davithayrapetyan.textreaderapp
+
+interface Platform {
+    val name: String
+}
+
+expect fun getPlatform(): Platform
